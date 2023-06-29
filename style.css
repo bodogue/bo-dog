@@ -20,7 +20,7 @@
     --cor5: #0D4D29;
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-destaque: 'Cutive Mono', monospace;
+    --fonte-destaque: 'Lato', monospace;
     --fonte-android: 'android', Gothic;
 }
 
@@ -42,11 +42,11 @@ header {
 }
 
 header > h1 {
-    text-indent: 0%;
-    margin: 0%;
-    font-family: var(--fonte-destaque);
     color: white;
+    font-family: var(--fonte-destaque);
+    margin: 0%;
     font-size: 2.1em; 
+    text-indent: 0%;
     text-align: center;
     text-shadow: 1px 1px 4px var(--cor4);
 }
